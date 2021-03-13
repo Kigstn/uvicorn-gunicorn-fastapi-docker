@@ -3,9 +3,12 @@
 The repository contains builds of `uvicorn-guicorn-fastapi` created by [tiangolo](https://github.com/tiangolo)
 ([sources](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)) for python3.9
 
-`python3.9` images are taken from [graue70](https://github.com/graue70)'s [PR](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/67)
+`python3.9` images are taken from [graue70](https://github.com/graue70) 's [PR](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/67)
 
 Once tiangolo build images for python 3.9, this repository will become irrelevant.
+
+The images utilize uvicorn-guicorn images built in [this repo](https://github.com/WinnerOK/uvicorn-gunicorn-docker).
+**Not tiangolo's images!**
 
 **This images are built for personal usage. Use with cautions**!
 
