@@ -1,3 +1,28 @@
+# Disclaimer
+
+The repository contains builds of `uvicorn-guicorn-fastapi` created by [tiangolo](https://github.com/tiangolo)
+([sources](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)) for python3.9
+
+`python3.9` images are taken from [graue70](https://github.com/graue70) 's [PR](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/67)
+
+Once tiangolo build images for python 3.9, this repository will become irrelevant.
+
+The images utilize uvicorn-guicorn images built in [this repo](https://github.com/WinnerOK/uvicorn-gunicorn-docker).
+**Not tiangolo's images!**
+
+**This images are built for personal usage. Use with cautions**!
+
+Images can be downloaded from [DockerHub](https://hub.docker.com/repository/docker/winnerokay/uvicorn-gunicorn-fastapi)
+
+## Tags available
+* [`python3.9`, `latest` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9.dockerfile)
+* [`python3.9-slim` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9-slim.dockerfile)
+* [`python3.9-alpine` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9-alpine.dockerfile)
+* [`python3.9-alpine3.12` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker/blob/master/docker-images/python3.9-alpine3.12.dockerfile)
+
+
+# Original tiangolo's README
+
 [![Test](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
