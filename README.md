@@ -692,6 +692,7 @@ All the image tags, configurations, environment variables and application option
 
 ### Latest Changes
 
+* Python3.9. PR [#1](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker/pull/1) by [@WinnerOK](https://github.com/WinnerOK).
 * 👷 Add latest-changes GitHub action, update issue-manager, add funding. PR [#70](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker/pull/70) by [@tiangolo](https://github.com/tiangolo).
 ### 0.6.0
 
