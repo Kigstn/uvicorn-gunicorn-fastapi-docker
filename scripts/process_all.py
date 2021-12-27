@@ -4,10 +4,10 @@ import sys
 
 environments = [
     {"NAME": "latest", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.10.0-alpine", "PYTHON_VERSION": "3.10.0"},
-    {"NAME": "python3.10.0-alpine3.14", "PYTHON_VERSION": "3.10.0"},
-    {"NAME": "python3.10.0-slim", "PYTHON_VERSION": "3.10.0"},
-    {"NAME": "python3.10.0", "PYTHON_VERSION": "3.10.0"},
+    {"NAME": "python3.10.1-alpine", "PYTHON_VERSION": "3.10.1"},
+    {"NAME": "python3.10.1-alpine3.15", "PYTHON_VERSION": "3.10.1"},
+    {"NAME": "python3.10.1-slim", "PYTHON_VERSION": "3.10.1"},
+    {"NAME": "python3.10.1", "PYTHON_VERSION": "3.10.1"},
 ]
 
 start_with = os.environ.get("START_WITH")
